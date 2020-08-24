@@ -1,0 +1,76 @@
+.dailydose {
+    padding: 50px 10px;
+}
+
+.dailydose span {
+    display: none;
+}
+
+.dailydose ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.dailydose li {
+    background-color: white;
+    flex-grow: 1;
+    padding: 10px 0;
+    border: 1px solid #292059;
+}
+
+.dailydose p {
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 1.15rem;
+    color: #292059;
+    font-weight: 600;
+    margin: 0;
+}
+
+body
+{
+	background-color: lavender;
+}
+#second
+{
+
+margin: 50px 100px 30px 100px;
+   	padding: 300px; 
+   	background-color:white;
+}
+
+@media (max-width: 1000px) {
+    .quizManiaRow {
+        flex-direction: column;
+        align-items: center;
+    }
+    .quizManiaRow section {
+        width: 80%;
+        margin: 10px 0;
+        height: 40px;
+    }
+    .quizManiaRow div {
+        order: -1;
+        margin-bottom: 10px;
+        height: auto;
+    }
+    .quizManiaRow span {
+        display: inline;
+    }
+    .quizManiaRow h2 {
+        font-size: 1.1rem;
+    }
+    .quizManiaRow br {
+        display: none;
+    }
+    .dailydose ul {
+        flex-direction: column;
+    }
+    .dailydose ul li {
+        margin: 3px;
+    }
+    .dailydose span {
+        display: inline;
+    }
+}
